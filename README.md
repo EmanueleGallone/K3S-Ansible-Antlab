@@ -1,5 +1,10 @@
 ## Antlab USAGE
 Edit inventory/antlab-cluster/hosts.ini to match machines' IP addresses.
+```bash
+ansible-playbook site.yml -i inventory/antlab-cluster/hosts.ini -K
+```
+
+
 #
 
 Cloned from:
