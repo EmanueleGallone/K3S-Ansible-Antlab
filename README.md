@@ -1,4 +1,10 @@
 ## Antlab USAGE
+
+install ansible on master machine (ensure that all the other machines have a python distro installed)
+```
+sudo apt install -y ansible
+```
+
 Edit inventory/antlab-cluster/hosts.ini to match machines' IP addresses.
 ```bash
 ansible-playbook site.yml -i inventory/antlab-cluster/hosts.ini -K
@@ -7,8 +13,7 @@ ansible-playbook site.yml -i inventory/antlab-cluster/hosts.ini -K
 
 #
 
-Cloned from:
-Author: <https://github.com/itwars>
+forked from  <https://github.com/itwars>
 
 ## K3s Ansible Playbook
 
